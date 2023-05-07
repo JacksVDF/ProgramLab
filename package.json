@@ -1,0 +1,44 @@
+{
+  "name": "programlab",
+  "version": "1.0.0",
+  "description": "Interactive platform to help students in their process to learn how to program.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksVDF/ProgramLab.git"
+  },
+  "keywords": [
+    "Python",
+    "Learning",
+    "Web"
+  ],
+  "author": "Julian A. Cardona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacksVDF/ProgramLab/issues"
+  },
+  "homepage": "https://github.com/JacksVDF/ProgramLab#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.17.3",
+    "jspdf": "^2.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pdfmake": "^0.2.7",
+    "quill": "^1.3.7",
+    "sequelize": "^6.31.1"
+  }
+}
