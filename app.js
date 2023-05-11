@@ -24,6 +24,10 @@ app.use(session({
 
 const connection = require('./database/db')
 
+app.get('/', (req, res)=>{
+    res.render('login')
+})
+
 app.listen(3000, (req, res)=>{
     console.log('Server is running on http://localhost:3000')
 })
