@@ -1,0 +1,347 @@
+.logo{
+display: flex;
+position: absolute;
+justify-content: center;
+align-items: center;
+top: 5%;
+right: 25%;
+left: 25%;
+bottom: 63%;
+border-radius: 100%;
+background: #D9D9D9;
+} 
+
+.titulo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 20%;
+    left: 20%;
+    top: 40%;
+    bottom: 60%;
+}
+.items{
+    position: absolute;
+    right: 23%;
+    left: 23%;
+    bottom: 15%;
+}
+
+.forg{
+    position: absolute;
+    right: 23%;
+    left: 23%;
+    bottom: 4%;
+}
+
+.log{
+    position: absolute;
+    right: 25.5%;
+    left: 25.5%;
+    bottom: 26%;
+    justify-content: center;
+    align-items: center;
+    top: 68%;
+}
+.ema{
+    top: 50%;
+}
+
+.contra{
+    top: 59%;
+}
+.reg{
+     position: absolute;
+     bottom: 5%;
+     right: 20%;
+     left:  20%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    top: 2%;
+    bottom: 5%;
+    background-color: #C1DF9A;
+    color: black;
+}
+
+.barra{
+position: absolute;
+left: 0.97%;
+right: 0.97%;
+top: 1.27%;
+bottom: 90.82%;
+background-color:#D9D9D9;      
+}
+
+.vista{
+    display: flex;
+    position: absolute;
+    left: 2.78%;
+    right: 80.9%;
+    top: 16%;
+    bottom: 16%;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    border-radius: 50px;
+}
+
+.gen-btn{
+display: flex;
+position: absolute;
+top: 16%;
+bottom: 16%;
+justify-content: center;
+align-items: center;
+background: #93D7ED;
+border-radius: 100%;
+}
+
+.nav{
+    left: 87.3%;
+    right: 10%;
+}
+
+.nav-2{
+    left: 91.3%;
+    right: 6%;
+}
+
+.nav-3{
+    left: 95.3%;
+    right: 2%;
+}
+
+.main_div{
+    position: absolute;
+    left: 3.19%;
+    right: 32.65%;
+    top: 18.3%;
+    bottom: 5%;
+
+    background-color: #D9D9D9;
+}
+
+.ova-editar{
+display: flex;
+position: absolute;
+left: 40%;
+right: 40%;
+top: 82%;
+bottom: 10%;
+justify-content: center;
+align-items: center;
+background: #C1DF9A;
+border-radius: 50px;
+}
+
+.add_user{
+
+position: absolute;
+left: 70.4%;
+right: 2.76%;
+top: 18.3%;
+bottom: 49.22%;
+
+background-color: #D9D9D9;
+}
+
+.btn_add_user{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 75%;
+    bottom: 10%;
+    
+    background: #C1DF9A;
+    border-radius: 50px;
+}
+
+.term_adm{
+    position: absolute;
+    left: 70.4%;
+    right: 2.76%;
+    top: 56.05%;
+    bottom: 5%;
+    
+    background: #D9D9D9;
+}
+
+.btn_term_adm{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 75%;
+    bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    background: #C1DF9A;
+    border-radius: 50px;
+}
+
+.btn-pre{
+    display: flex;
+    position: absolute;
+    left: 20.9%;
+    right: 63.32%;
+    top: 87.33%;
+    bottom: 6.05%;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1DF9A;
+    border-radius: 50px;
+}
+
+.btn-aft{
+    display: flex;
+    position: absolute;
+    left: 63.32%;
+    right: 20.9%;
+    top: 87.33%;
+    bottom: 6.05%;
+    justify-content: center;
+    align-items: center;
+    background: #C1DF9A;
+    border-radius: 50px;
+}
+
+.main_term{
+    display: flex;
+    position: absolute;
+    left: 70.4%;
+    right: 2.76%;
+    top: 18.3%;
+    bottom: 59.2%;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.main_edit{
+    display: flex;
+    position: absolute;
+    left: 70.4%;
+    right: 2.76%;
+    top: 42.8%;
+    bottom: 31.3%;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+
+}
+
+.main_notes{
+    display: flex;
+    position: absolute;
+    left: 70.4%;
+    right: 2.76%;
+    top: 70.7%;
+    bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+}
+
+.editor{
+    right: 17.92%;
+    left: 17.92%;
+    bottom: 10%;
+}
+
+.save{
+    display: flex;
+    position: absolute;
+    left: 32.72%;
+    right: 53.47%;
+    top: 92%;
+    bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+}
+
+.down{
+    display: flex;
+    position: absolute;
+    left: 53.4%;
+    right: 32.79%;
+    top: 92%;
+    bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+}
+
+.estudiante{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18.3%;
+    bottom: 73.5%;
+    left: 3.19%;
+    right: 32.65%;
+    background: #D9D9D9;
+}
+
+.practica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 28.3%;
+    bottom: 5%;
+}
+
+.con{
+    bottom: 5%;
+}
+
+.nota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: gray;
+    top: 10%;
+    right: 30%;
+    left: 30%;
+    bottom: 82%;
+}
+
+.retro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: gray;
+    top: 22%;
+    bottom: 20%;
+    right: 15%;
+    left: 15%;
+}
+
+.sav{
+    top: 82%;
+    bottom: 12%;
+    right: 20%;
+    left: 20%;
+}
+
+.next{
+    top: 90%;
+    bottom: 3%;
+    right: 20%;
+    left: 20%;
+}
+
+.term{
+    right: 17.22%;
+    left: 17.22%;
+}
