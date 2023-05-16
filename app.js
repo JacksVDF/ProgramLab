@@ -23,9 +23,29 @@ app.use(session({
 }))
 
 const connection = require('./database/db')
+const e = require('express')
 
-app.get('/', (req, res)=>{
+app.get('/login', (req, res)=>{
     res.render('login')
+})
+
+app.get('/register', (req, res)=>{
+    res.render('register')
+})
+
+app.post('/register', async (req, res)=>{
+    const user = req.body.typeNameX
+    const name = req.body.typeEmailX
+    const pass = req.body.typeRePassX
+    let passhash = await bcryptjs.hash(pass, 8)
+    connection.query('INSERT INTO users SET ?', {user:user, name:name, rol:'Estudiante', pass:passhash}, async(err, result)=>{
+        if(error){
+            console.log(error)
+        }
+        else{
+            res.send('Registro realizado')
+        }
+    })
 })
 
 app.listen(3000, (req, res)=>{
